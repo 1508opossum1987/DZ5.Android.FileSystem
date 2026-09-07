@@ -1,0 +1,71 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:id="@+id/main"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    tools:context=".MainActivity"
+    android:orientation="vertical">
+
+    <TextView
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="@string/head_name"
+        android:textSize="40sp"
+        android:textAlignment="center"
+        android:textStyle="bold"
+        android:layout_marginTop="20sp"/>
+
+    <EditText
+        android:id="@+id/titleTextEdit"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:hint="@string/hint_title_text_edit"
+        android:textSize="30sp"
+        android:layout_marginTop="20sp"/>
+
+    <EditText
+        android:id="@+id/massTextEdit"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:hint="@string/hint_mass_text_edit"
+        android:textSize="30sp"
+        android:layout_marginTop="20sp"/>
+
+    <EditText
+        android:id="@+id/priceTextEdit"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:hint="@string/hint_price_text_edit"
+        android:textSize="30sp"
+        android:layout_marginTop="20sp"/>
+
+    <CheckBox
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="@string/is_vegetarian_check_box"
+        android:textSize="30sp"
+        android:id="@+id/isVegitarianCheckBox"
+        android:onClick="isVegitarianCheckBoxOnClicked"
+        android:layout_marginTop="20sp"/>
+
+    <Button
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="@string/save_button"
+        android:textSize="30sp"
+        android:id="@+id/saveButton"
+        android:onClick="saveButtonOnClick"
+        android:layout_marginTop="20sp"/>
+
+    <Button
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="@string/load_button"
+        android:textSize="30sp"
+        android:id="@+id/loadButton"
+        android:onClick="loadButtonOnClick"
+        android:layout_marginTop="20sp"/>
+
+</LinearLayout>

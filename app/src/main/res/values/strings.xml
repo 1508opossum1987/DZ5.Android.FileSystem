@@ -1,0 +1,10 @@
+<resources>
+    <string name="app_name">DZ5.FileSystem</string>
+    <string name="head_name">Create A PIZZA!</string>
+    <string name="hint_title_text_edit">title</string>
+    <string name="hint_mass_text_edit">mass</string>
+    <string name="hint_price_text_edit">price</string>
+    <string name="is_vegetarian_check_box">is vegetarian</string>
+    <string name="save_button">Save</string>
+    <string name="load_button">Load</string>
+</resources>
