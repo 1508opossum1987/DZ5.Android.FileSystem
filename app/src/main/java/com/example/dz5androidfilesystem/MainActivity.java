@@ -251,6 +251,7 @@ public class MainActivity extends AppCompatActivity {
 
             if (cachedPizza != null) {
                 pizza = cachedPizza;
+
                 updateUI();
                 Toast.makeText(this, "Load From Cache OK", Toast.LENGTH_SHORT).show();
             } else {
