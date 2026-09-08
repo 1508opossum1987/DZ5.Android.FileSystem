@@ -5,6 +5,9 @@
     <string name="hint_mass_text_edit">mass</string>
     <string name="hint_price_text_edit">price</string>
     <string name="is_vegetarian_check_box">is vegetarian</string>
-    <string name="save_button">Save</string>
-    <string name="load_button">Load</string>
+    <string name="save_button_to_internal">Save On Internal Storage</string>
+    <string name="load_button_from_internal">Load From Internal Storage</string>
+    <string name="save_button_to_external">Save On External Storage</string>
+    <string name="load_button_from_external">Load From External Storage</string>
+    <string name="load_from_cache_button">Load From Cache</string>
 </resources>

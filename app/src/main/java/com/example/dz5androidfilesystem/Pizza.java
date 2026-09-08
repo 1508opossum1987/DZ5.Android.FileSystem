@@ -1,16 +1,22 @@
 package com.example.dz5androidfilesystem;
 
-public class Pizza {
-    private String title;
-    private double mass;
-    private double price;
-    private boolean isVegetarian = false;
+import androidx.annotation.NonNull;
 
-    Pizza(String title, double mass, double price, boolean isVegetarian){
-        this.title = title;
-        this.mass = mass;
-        this.price = price;
-        this.isVegetarian = isVegetarian;
+public class Pizza {
+
+    private String title;
+
+    private double mass;
+
+    private double price;
+
+    private boolean isVegetarian;
+
+    public Pizza() {
+        this.title = "";
+        this.mass = 0.0;
+        this.price = 0.0;
+        this.isVegetarian = false;
     }
 
     public void setMass(double mass) {
@@ -45,6 +51,7 @@ public class Pizza {
         return isVegetarian;
     }
 
+    @NonNull
     @Override
     public String toString(){
         return "Название: "+title+", масса: "+mass+", цена: "+price+", вегетарианская: "+isVegetarian+".";
